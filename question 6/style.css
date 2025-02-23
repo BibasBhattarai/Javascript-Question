@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "gilroy";
+
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    padding: 10px;
+}
+
+#tab{
+    display: flex;
+    /* background-color: rgb(136, 139, 139); */
+    gap: 5px;
+}
+
+.tab{
+padding: 10px;
+background-color: rgb(72, 74, 74);
+border: 2px solid rgb(124, 121, 121);
+font-weight: 700;
+
+}
+
+h3{
+    width: 50%;
+    margin-top: 10px;
+    display: none;
+}
